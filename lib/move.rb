@@ -13,5 +13,8 @@ end
 board = [" "," "," "," "," "," "," "," "," "," "]
 
 def move(board, index, value = "X")
-  board[index.to_i - 1] = value
+  if index == 0
+    board[index.to_i] = value
+  else
+    board[index.to_i - 1] = value
 end
