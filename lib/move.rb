@@ -13,9 +13,9 @@ end
 board = [" "," "," "," "," "," "," "," "," "," "]
 
 def move(board, index, value = "X")
-  if index == 0
+  # if index == 0
     board[index.to_i] = value
-  else
-    board[index.to_i - 1] = value
-  end
+  # else
+  #   board[index.to_i - 1] = value
+  # end
 end
