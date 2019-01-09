@@ -12,4 +12,3 @@ board = [" "," "," "," "," "," "," "," "," "]
 
 input = input_to_index(user_input)
 
-move(input)
